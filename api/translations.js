@@ -2,7 +2,7 @@ const translationES =  {
     RefreshBtn: "Refrescar",
     TextForm:"¿Como juegas normalmente?",
     explainContainerText:"¿Que es esto?",
-    explainTextCollapse:'Pequeña página web para las personas que quieren salir de la caja y probar cosas nuevas en cada juego en el videojuego "Counter-Strike" ¡sube de nivel haciendo cosas diferentes!',
+    explainTextCollapse:'Pequeña página web para las personas que quieren salir de la caja y probar cosas nuevas en cada partida en el videojuego "Counter-Strike" ¡sube de nivel haciendo cosas diferentes!',
     ValueNormal:"Normal",
     ValueDefensive:"Defensivo",
     ValueAgressive:"Agresivo",
