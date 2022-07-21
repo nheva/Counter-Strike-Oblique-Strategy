@@ -12,33 +12,32 @@ const phrases = [
     {es:"Preguntate a ti mismo.", en:"Ask your body.", type:"normal"},
     {es:"Reune tus mejores instrumentos y gana con ellos.", en:"Gather your best instruments and win with them.", type:"agressive"},
     {es:"Equilibre el principio de coherencia con el de incoherencia.", en:"Balance the consistency principle with the inconsistency principle.", type:"normal"},
-    {es:"Se sucio.", en:"Be dirty."}
+    {es:"Se sucio.", en:"Be dirty.", type:"normal"},
+    {es:"Respira mas profundo", en:"Breathe more deeply", type:"normal"},
+    {es:"Cascadas",en:"Cascades", type:"normal"},
+    {es:"Cambia los roles de los intrumentos",en:"Change instrument roles", type:"normal"},
+    {es:"No cambies nada y continúa con una consistencia inmaculada.",en:"Change nothing and continue with immaculate consistency", type:"normal"},
+    {es:"Analiza los conglomerados",en:"Cluster analysis", type:"lurker"},
+    {es:"Considere diferentes sistemas de desvanecimiento",en:"Consider different fading systems", type:"normal"},
+    {es:"Consultar otras fuentes -prometedor -poco prometedor",en:"Consult other sources -promising -unpromising", type:"normal"},
+    {es:"Convertir un elemento melódico en un elemento rítmico",en:"Convert a melodic element into a rhythmic element", type:"normal"},
+    {es:"¡Coraje!",en:"Courage!", type:"agressive"},
+    {es:"Cortar una conexión vital",en:"Cut a vital connection", type:"lurker"},
+    {es:"Decorar, decorar",en:"Decorate, decorate", type:"normal"},
+    {es:"Definir un área como 'segura' y usarla como ancla",en:"Define an area as `safe' and use it as an anchor", type:"agressive"},
+    {es:"No destruyas nada",en:"Destroy nothing", type:"defensive"},
+    {es:"Destruye lo mas importante",en:"Destroy the most important thing", type:"agressive"},
+    {es:"Descartar un axioma",en:"Discard an axiom", type:"defensive"},
+    {es:"Desconectar del deseo",en:"Disconnect from desire", type:"normal"},
+    {es:"Descubre las recetas que estás usando y déjalas",en:"Discover the recipes you are using and abandon them", type:"lurker"},
+    {es:"distorsionando el tiempo",en:"Distorting time", type:"lurker"},
+    {es:"No hacer nada durante el mayor tiempo posible.",en:"Do nothing for as long as possible", type:"lurker"},
 ];
 
 export {phrases}; 
 
 /* 
-Be dirty
-Breathe more deeply
-Bridges -build -burn
-Cascades
-Change instrument roles
-Change nothing and continue with immaculate consistency
 Children's voices -speaking -singing
-Cluster analysis
-Consider different fading systems
-Consult other sources -promising -unpromising
-Convert a melodic element into a rhythmic element
-Courage!
-Cut a vital connection
-Decorate, decorate
-Define an area as `safe' and use it as an anchor
-Destroy -nothing -the most important thing
-Discard an axiom
-Disconnect from desire
-Discover the recipes you are using and abandon them
-Distorting time
-Do nothing for as long as possible
 Don't be afraid of things because they're easy to do
 Don't be frightened of cliches
 Don't be frightened to display your talents
