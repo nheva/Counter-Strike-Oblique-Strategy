@@ -76,10 +76,6 @@ h1{
   transition-property: transform;
 }
 
-.card:hover{
-  transform: rotateZ(0.5deg);
-}
-
 .card-text{
   display: flex;
   justify-content: center;
@@ -206,6 +202,7 @@ h1{
   visibility: visible;
   opacity: 1;
 }
+
 
 @media only screen and (max-width: 568px) {
   .card{
