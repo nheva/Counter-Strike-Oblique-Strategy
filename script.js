@@ -10,8 +10,8 @@ var lenguageBtn = document.getElementById('lenguage-btn');
 var lenguageImg = document.getElementById('lenguage-img');
 var selectForm = document.getElementById('game-mode-form');
 var modeSelected = 'normal';
-var toolTip = document.getElementById('tooltip');
-var toolTipText = document.getElementById('tooltip-text');
+var explainContainerText = document.getElementById('explain-container-text');
+var explainTextCollapse = document.getElementById('explain-text-collapse');
 
 let ESFlag = './assets/img/esflag-img.png';
 let ENFlag = './assets/img/enflag-img.png';
@@ -26,6 +26,15 @@ console.log(lenguage)
 CardTextChange()
 translations()
 getSelectedPhrases()
+
+explainContainerText.addEventListener('click', function(){
+    console.log(explainTextCollapse.style.visibility)
+    if (explainTextCollapse.style.visibility == "hidden"){
+        explainTextCollapse.style.visibility = "visible"
+    }else{
+        explainTextCollapse.style.visibility = "hidden"
+    }
+});
 
 refreshButton.addEventListener('click', function(){
     CardTextChange()
@@ -84,15 +93,15 @@ function translations(){
     if  (lenguage == 'es'){
         refreshButton.innerHTML = translationES.RefreshBtn;
         textform.innerHTML = translationES.TextForm;
-        toolTip.innerHTML = translationES.ToolTip;
-        toolTipText.innerHTML = translationES.ToolTipText;
+        explainContainerText.innerHTML = translationES.explainContainerText;
+        explainTextCollapse.innerHTML = translationES.explainTextCollapse;
         createOptions(lenguage)
 
     }else if  (lenguage == 'en'){
         refreshButton.innerHTML = translationEN.RefreshBtn;
         textform.innerHTML = translationEN.TextForm;
-        toolTip.innerHTML = translationEN.ToolTip;
-        toolTipText.innerHTML = translationEN.ToolTipText;
+        explainContainerText.innerHTML = translationEN.explainContainerText;
+        explainTextCollapse.innerHTML = translationEN.explainTextCollapse;
         createOptions(lenguage)
     }
 }

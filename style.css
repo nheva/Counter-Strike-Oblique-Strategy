@@ -162,56 +162,50 @@ h1{
   justify-content: center;
 }
 
-.tooltip {
+.explain-section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif; 
+}
+.explain-container {
   position: relative;
   border-bottom: 1px dotted black;
+}
+
+.explain-container-text{
+  display: flex;
+  justify-content: center;
   color: #e6e6e6;
   text-decoration: underline;
-}
-
-.lenguage-btn{
-
-}
-
-.tooltip .tooltiptext {
-  visibility: hidden;
-  width: 120px;
-  background-color: #555;
-  color: #fff;
   text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
-  position: absolute;
-  z-index: 1;
-  bottom: 125%;
-  left: 50%;
-  margin-left: -60px;
-  opacity: 0;
-  transition: opacity 0.3s;
-  font-size: 12px;
+  font-size: 16px;
+  margin: 35px auto 0px auto;
+  background-color: transparent;
+  border: 0px;
+  padding: 0px;
+  cursor: pointer;
 }
 
-.tooltip .tooltiptext::after {
-  content: "";
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  margin-left: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: #555 transparent transparent transparent;
-}
-
-.tooltip:hover .tooltiptext {
-  visibility: visible;
-  opacity: 1;
+.explain-text-collapse{
+  visibility:hidden;
+  text-align: center;
+  color: #e6e6e6;
+  font-size: 15px;
+  line-height: 22px;
+  max-width: 500px;
+  max-height: 120px;
+  background-color:#161d24;
+  border-radius: 15px;
+  margin: 15px 5px 15px 5px;
+  padding: 12px;
 }
 
 
 @media only screen and (max-width: 568px) {
   .card{
     margin: auto;
-    height: 200px;
+    height: 170px;
     width: 100%;
     background-color: #e6e6e6;
     border-radius: 50px;
