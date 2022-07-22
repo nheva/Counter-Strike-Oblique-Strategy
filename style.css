@@ -71,7 +71,7 @@ h1{
   width: 550px;
   background-color: #e6e6e6;
   align-tracks: center;
-  border-radius: 50px;
+  border-radius: 35px;
   transition-duration: 0.05s;
   transition-property: transform;
 }
@@ -188,7 +188,6 @@ h1{
 }
 
 .explain-text-collapse{
-  visibility:hidden;
   text-align: center;
   color: #e6e6e6;
   font-size: 15px;
@@ -208,7 +207,6 @@ h1{
     height: 170px;
     width: 100%;
     background-color: #e6e6e6;
-    border-radius: 50px;
     transition-duration: 0.05s;
     transition-property: transform;
   }
